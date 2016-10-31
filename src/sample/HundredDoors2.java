@@ -6,13 +6,12 @@ import java.util.List;
 /**
  * Created by xuefen on 2016/10/31.
  */
-public class HundredDoors {
+public class HundredDoors2 {
+    private List openDoors;
+    private List closeDoors;
 
-    private int doorsCount = 0;
-
-    protected HundredDoors(int nDoors)
-    {
-        this.doorsCount = nDoors;
+    public HundredDoors2(int nDoors) {
+        super();
     }
 
     private void StartToggleDoors() {
@@ -33,8 +32,4 @@ public class HundredDoors {
         return closeDoors;
     }
 
-    public int getDoorsCount()
-    {
-        return this.doorsCount;
-    }
 }

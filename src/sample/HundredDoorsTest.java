@@ -22,17 +22,18 @@ public class HundredDoorsTest {
     @Test
     public void GIVEN_1_Door_RETURN_1_FOR_OPEN()
     {
-        HundredDoors hundredDoors = new HundredDoors(1);
-        assertEquals(Arrays.asList(1),hundredDoors.getOpenDoors());
-        assertEquals(Arrays.asList(),hundredDoors.getCloseDoors());
+        HundredDoors1 hundredDoors1 = new HundredDoors1(1);
+        HundredDoors2 hundredDoors2 = new HundredDoors2(1);
+        assertEquals(Arrays.asList(1),hundredDoors1.getOpenDoors());
+        assertEquals(Arrays.asList(),hundredDoors1.getCloseDoors());
     }
 
     @Test public void GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE()
     {
 
-        HundredDoors hundredDoors = new HundredDoors(2);
-        assertEquals(Arrays.asList(1),hundredDoors.getOpenDoors());
-        assertEquals(Arrays.asList(2),hundredDoors.getCloseDoors());
+        HundredDoors1 hundredDoors1 = new HundredDoors1(2);
+        assertEquals(Arrays.asList(1),hundredDoors1.getOpenDoors());
+        assertEquals(Arrays.asList(2),hundredDoors1.getCloseDoors());
     }
 
     @After
