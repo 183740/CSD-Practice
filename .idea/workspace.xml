@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HundredDoorsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HundredDoorsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/HundredDoorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="206">
+              <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HundredDoors.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HundredDoors.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/HundredDoors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            <state relative-caret-position="38">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,7 +261,7 @@
       <recent name="sample" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HundredDoorsTest.Test1">
+  <component name="RunManager" selected="TestNG.HundredDoorsTest.GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE">
     <configuration default="false" name="HundredDoorsTest.Test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -276,6 +276,72 @@
       <option name="PACKAGE_NAME" value="sample" />
       <option name="MAIN_CLASS_NAME" value="sample.HundredDoorsTest" />
       <option name="METHOD_NAME" value="Test1" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="HundredDoorsTest.GIVEN_1Door_RETURN_1_FOR_OPEN" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HundredDoors" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.HundredDoorsTest" />
+      <option name="METHOD_NAME" value="GIVEN_1Door_RETURN_1_FOR_OPEN" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="HundredDoorsTest.GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HundredDoors" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.HundredDoorsTest" />
+      <option name="METHOD_NAME" value="GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -562,13 +628,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.HundredDoorsTest.Test1" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.HundredDoorsTest.GIVEN_1Door_RETURN_1_FOR_OPEN" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.HundredDoorsTest.GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.HundredDoorsTest.Test1" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.HundredDoorsTest.GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.HundredDoorsTest.GIVEN_1Door_RETURN_1_FOR_OPEN" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.HundredDoorsTest.Test1" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -591,23 +661,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 02m 43s.xml">
-      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
+    <history-entry file="HundredDoorsTest_GIVEN_1Door_RETURN_1_FOR_OPEN - 2016.10.31 at 21h 53m 35s.xml">
+      <configuration name="HundredDoorsTest.GIVEN_1Door_RETURN_1_FOR_OPEN" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 15m 25s.xml">
-      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 36m 46s.xml">
-      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 37m 32s.xml">
-      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 39m 00s.xml">
-      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 40m 21s.xml">
-      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
+    <history-entry file="HundredDoorsTest_GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE - 2016.10.31 at 21h 54m 49s.xml">
+      <configuration name="HundredDoorsTest.GIVEN_2_Door_RETURN_1_FOR_OPEN_2_FOR_CLOSE" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 40m 43s.xml">
       <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
@@ -619,6 +677,18 @@
       <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 47m 00s.xml">
+      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 48m 21s.xml">
+      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 48m 42s.xml">
+      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 51m 24s.xml">
+      <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HundredDoorsTest_Test1 - 2016.10.31 at 21h 52m 23s.xml">
       <configuration name="HundredDoorsTest.Test1" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -636,7 +706,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32300162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32300162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -677,17 +747,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sample/HundredDoors.java</url>
-          <line>42</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/HundredDoors.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -754,20 +819,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/HundredDoors.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/HundredDoorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <state relative-caret-position="206">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/HundredDoorsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/HundredDoors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="38">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

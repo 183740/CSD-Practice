@@ -53,4 +53,19 @@ public class HundredDoors {
 
         return openDoors;
     }
+
+    public List getCloseDoors() {
+        int countOpen = 0;
+        List closeDoors = new ArrayList();
+
+        for(int i =1;i<=length;i++)
+        {
+            if(doors[i] == false)
+            {
+                closeDoors.add(i);
+            }
+        }
+
+        return closeDoors;
+    }
 }
