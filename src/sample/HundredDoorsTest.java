@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -21,7 +23,7 @@ public class HundredDoorsTest {
     public void Test1()
     {
         HundredDoors hundredDoors = new HundredDoors(1);
-        assertEquals(1,hundredDoors.getOpenDoors());
+        assertEquals(Arrays.asList(1),hundredDoors.getOpenDoors());
 
         //HundredDoors hundredDoors2 = new HundredDoors(2);
         //assertEquals(2,hundredDoors.getOpenDoors());
