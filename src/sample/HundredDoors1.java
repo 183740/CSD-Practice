@@ -26,6 +26,7 @@ public class HundredDoors1 extends HundredDoors{
                 {
                     toggle(doorNumber);
                 }
+                this.checkCount();
             }
         }
     }
@@ -52,6 +53,7 @@ public class HundredDoors1 extends HundredDoors{
         for(int i = 0; i<=this.getDoorsCount(); i++)
         {
             closeDoor(i);
+            this.checkCount();
         }
     }
 
@@ -64,6 +66,7 @@ public class HundredDoors1 extends HundredDoors{
             {
                 openDoors.add(i);
             }
+            this.checkCount();
         }
 
         return openDoors;
@@ -83,6 +86,7 @@ public class HundredDoors1 extends HundredDoors{
             {
                 closeDoors.add(i);
             }
+            this.checkCount();
         }
 
         return closeDoors;

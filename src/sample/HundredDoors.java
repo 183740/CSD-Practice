@@ -7,7 +7,7 @@ import java.util.List;
  * Created by xuefen on 2016/10/31.
  */
 public class HundredDoors {
-
+    private int checkCount = 0;
     private int doorsCount = 0;
 
     protected HundredDoors(int nDoors)
@@ -36,5 +36,15 @@ public class HundredDoors {
     public int getDoorsCount()
     {
         return this.doorsCount;
+    }
+
+    public void checkCount()
+    {
+        this.checkCount++;
+    }
+
+    public int getCheckCount()
+    {
+        return this.checkCount;
     }
 }

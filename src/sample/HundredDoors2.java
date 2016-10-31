@@ -6,30 +6,53 @@ import java.util.List;
 /**
  * Created by xuefen on 2016/10/31.
  */
-public class HundredDoors2 {
-    private List openDoors;
-    private List closeDoors;
+public class HundredDoors2 extends HundredDoors{
+    private List openDoors = new ArrayList();
+    private List closeDoors = new ArrayList();
 
     public HundredDoors2(int nDoors) {
-        super();
+        super(nDoors);
+        StartToggleDoors();
     }
 
     private void StartToggleDoors() {
+        for(int doorNumber = 1;doorNumber<=this.getDoorsCount();doorNumber++)
+        {
+            toggleDoor(doorNumber);
+            this.checkCount();
+        }
+    }
 
+    private void toggleDoor(int doorNumber) {
+        setDoorStatus(doorNumber, getToggleCount(doorNumber));
+    }
+
+    private void setDoorStatus(int doorNumber, int toggleCount) {
+        if(toggleCount%2==0)
+        {
+            this.closeDoors.add(doorNumber);
+        }else
+        {
+            this.openDoors.add(doorNumber);
+        }
+    }
+
+    private int getToggleCount(int doorNumber) {
+        int toggleCount = 0;
+        for(int i=1;i<=doorNumber;i++)
+        {
+            if (doorNumber%i==0)
+                toggleCount++;
+            this.checkCount();
+        }
+        return toggleCount;
     }
 
     public List getOpenDoors() {
-        List openDoors = new ArrayList();
-
-        return openDoors;
+        return this.openDoors;
     }
 
     public List getCloseDoors() {
-
-        List closeDoors = new ArrayList();
-
-
-        return closeDoors;
+        return this.closeDoors;
     }
-
 }
