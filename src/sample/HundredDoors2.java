@@ -19,7 +19,6 @@ public class HundredDoors2 extends HundredDoors{
         for(int doorNumber = 1;doorNumber<=this.getDoorsCount();doorNumber++)
         {
             toggleDoor(doorNumber);
-            this.checkCount();
         }
     }
 
