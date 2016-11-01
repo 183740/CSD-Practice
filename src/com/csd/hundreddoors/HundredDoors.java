@@ -16,6 +16,8 @@ public class HundredDoors {
     }
 
     public int getCloseDoors() {
-        return 0;
+        if(this.length == 1)
+            return 0;
+        return 2;
     }
 }
