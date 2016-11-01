@@ -9,7 +9,6 @@ import java.util.List;
 public class HundredDoors {
     private int checkCount = 0;
     private int doorsCount = 0;
-
     protected HundredDoors(int nDoors)
     {
         this.doorsCount = nDoors;
@@ -21,15 +20,11 @@ public class HundredDoors {
 
     public List getOpenDoors() {
         List openDoors = new ArrayList();
-
         return openDoors;
     }
 
     public List getCloseDoors() {
-
         List closeDoors = new ArrayList();
-
-
         return closeDoors;
     }
 

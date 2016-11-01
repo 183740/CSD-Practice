@@ -47,9 +47,7 @@ public class HundredDoors1 extends HundredDoors{
     }
 
     private void closeAllDoors() {
-
         doors = new boolean[this.getDoorsCount()+1];
-
         for(int i = 0; i<=this.getDoorsCount(); i++)
         {
             closeDoor(i);
@@ -59,16 +57,12 @@ public class HundredDoors1 extends HundredDoors{
 
     public List getOpenDoors() {
         List openDoors = new ArrayList();
-
         for(int i = 1; i<= this.getDoorsCount(); i++)
         {
             if(isDoorOpen(i))
-            {
                 openDoors.add(i);
-            }
             this.checkCount();
         }
-
         return openDoors;
     }
 
@@ -88,7 +82,6 @@ public class HundredDoors1 extends HundredDoors{
             }
             this.checkCount();
         }
-
         return closeDoors;
     }
 }
