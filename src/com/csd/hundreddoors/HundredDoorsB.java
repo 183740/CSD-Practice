@@ -54,6 +54,7 @@ public class HundredDoorsB extends HundredDoors {
             {
                 toggleCount++;
             }
+            this.checkingCount();
         }
         return toggleCount;
     }
