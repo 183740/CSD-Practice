@@ -28,7 +28,7 @@ public class HundredDoorsTest {
     @Test public void GIVEN_1_door_WHEN_ask_close_door_THEN_get_0()
     {
         HundredDoors hundredDoors = new HundredDoors(1);
-        assertEquals(0,hundredDoors.getCloseDoors());
+        assertEquals(Arrays.asList(),hundredDoors.getCloseDoors());
     }
 
     @Test public void GIVEN_2_door_WHEN_ask_open_door_THEN_get_1()
@@ -39,23 +39,22 @@ public class HundredDoorsTest {
     @Test public void GIVEN_2_door_WHEN_ask_close_door_THEN_get_2()
     {
         HundredDoors hundredDoors = new HundredDoors(2);
-        assertEquals(2,hundredDoors.getCloseDoors());
+        assertEquals(Arrays.asList(2),hundredDoors.getCloseDoors());
     }
 
     @Test public void GIVEN_3_door_WHEN_ask_open_door_THEN_get_1()
     {
         HundredDoors hundredDoors = new HundredDoors(3);
-        //assertEquals(1,hundredDoors.getOpenDoors());
+        assertEquals(1,hundredDoors.getOpenDoors());
     }
 
     @Test public void GIVEN_3_door_WHEN_ask_close_door_THEN_get_23()
     {
         HundredDoors hundredDoors = new HundredDoors(3);
-        //assertEquals(Arrays.asList(2,3),hundredDoors.getCloseDoors());
+        assertEquals(Arrays.asList(2,3),hundredDoors.getCloseDoors());
     }
 
-    @After
-    public void After()
+    @After public void After()
     {
 
     }

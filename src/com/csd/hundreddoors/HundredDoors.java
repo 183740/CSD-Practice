@@ -1,5 +1,8 @@
 package com.csd.hundreddoors;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by xuefen on 2016/11/1.
  */
@@ -15,9 +18,11 @@ public class HundredDoors {
         return 1;
     }
 
-    public int getCloseDoors() {
+    public List<Integer> getCloseDoors() {
         if(this.length == 1)
-            return 0;
-        return 2;
+            return Arrays.asList();
+        else if(this.length == 2)
+            return Arrays.asList(2);
+        return Arrays.asList(2,3);
     }
 }
