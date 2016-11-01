@@ -1,13 +1,13 @@
 package com.csd.hundreddoors;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
  * Created by xuefen on 2016/11/1.
  */
 public class HundredDoors {
+    public static final int CONSTANT_ZERO_POINT = 0;
     private int NumOfDoors;
     private boolean[] doors;
 
@@ -16,25 +16,46 @@ public class HundredDoors {
         this.NumOfDoors = nDoorsCount;
         this.doors = new boolean[this.NumOfDoors+1];
 
-        //init
+        closeAllDoors();
+        toggleAllDoors();
+    }
+
+    private void toggleAllDoors() {
+        for(int toggleSpace=1;toggleSpace<=this.NumOfDoors;toggleSpace++)
+        {
+            for(int doorNumber = toggleSpace+CONSTANT_ZERO_POINT; doorNumber<=this.NumOfDoors; doorNumber+=+toggleSpace)
+            {
+                toggleDoor(doorNumber);
+            }
+        }
+    }
+
+    private void toggleDoor(int doorNumber) {
+        if(isDoorOpen(doorNumber))
+        {
+            closeDoor(doorNumber);
+        }else
+        {
+            openDoor(doorNumber);
+        }
+    }
+
+    private void openDoor(int doorNumber) {
+        this.doors[doorNumber] = true;
+    }
+
+    private void closeDoor(int doorNumber) {
+        this.doors[doorNumber] = false;
+    }
+
+    private boolean isDoorOpen(int doorNumber) {
+        return this.doors[doorNumber];
+    }
+
+    private void closeAllDoors() {
         for(int i=0;i<=this.NumOfDoors;i++)
         {
-            this.doors[i] = false;
-        }
-
-        //start analysis
-        for(int i=1;i<=this.NumOfDoors;i++)
-        {
-            for(int j=0,k=i+j;k<=this.NumOfDoors;k=k+i)
-            {
-                if(this.doors[k])
-                {
-                    this.doors[k] = false;
-                }else
-                {
-                    this.doors[k] = true;
-                }
-            }
+            closeDoor(i);
         }
     }
 
@@ -43,7 +64,7 @@ public class HundredDoors {
 
         for(int i=1;i<=this.NumOfDoors;i++)
         {
-            if(this.doors[i])
+            if(isDoorOpen(i))
                 openDoors.add(i);
         }
         return openDoors;
@@ -54,7 +75,7 @@ public class HundredDoors {
 
         for(int i=1;i<=this.NumOfDoors;i++)
         {
-            if(!this.doors[i])
+            if(!isDoorOpen(i))
                 closeDoors.add(i);
         }
         return closeDoors;
