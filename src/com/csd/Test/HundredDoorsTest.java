@@ -92,6 +92,17 @@ public class HundredDoorsTest {
         assertEquals(Arrays.asList(2,3),hundredDoorsB.getCloseDoors());
     }
 
+    @Test public void GIVEN_same_doors_WHEN_2_algorithm_THEN_get_same_results()
+    {
+        for(int i = 1;i<=100;i++)
+        {
+            HundredDoorsA hundredDoorsA = new HundredDoorsA(i);
+            HundredDoorsB hundredDoorsB = new HundredDoorsB(i);
+            assertEquals(hundredDoorsA.getOpenDoors(), hundredDoorsB.getOpenDoors());
+            assertEquals(hundredDoorsA.getCloseDoors(), hundredDoorsB.getCloseDoors());
+        }
+    }
+
     @After public void After()
     {
 

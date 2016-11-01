@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c83239-273c-4bff-ab46-aac9a44ea7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java" afterPath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsA.java" afterPath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsB.java" afterPath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" afterPath="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" />
     </list>
     <ignored path="HundredDoors.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="HundredDoorsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
-              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="76">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +113,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" />
         <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java" />
         <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsA.java" />
         <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsB.java" />
+        <option value="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" />
       </list>
     </option>
   </component>
@@ -629,9 +627,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HundredDoorsTest - 2016.11.01 at 21h 37m 37s.xml">
-      <configuration name="HundredDoorsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HundredDoorsTest - 2016.11.01 at 21h 46m 03s.xml">
       <configuration name="HundredDoorsTest" configurationId="TestNG" />
     </history-entry>
@@ -654,6 +649,9 @@
       <configuration name="HundredDoorsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HundredDoorsTest - 2016.11.01 at 22h 44m 35s.xml">
+      <configuration name="HundredDoorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HundredDoorsTest - 2016.11.01 at 22h 49m 13s.xml">
       <configuration name="HundredDoorsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HundredDoorsTest_GIVEN_1_door_WHEN_ask_open_door_THEN_get_1 - 2016.11.01 at 22h 25m 23s.xml">
@@ -772,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="76">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
