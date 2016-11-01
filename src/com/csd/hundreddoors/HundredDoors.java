@@ -10,9 +10,14 @@ public class HundredDoors {
     protected int NumOfDoors;
     private int totalCheckingCount;
 
-    public HundredDoors(int nDoorsCount) {
-        this.NumOfDoors = nDoorsCount;
-        this.totalCheckingCount=0;
+    public HundredDoors(int nDoorsCount) throws Exception {
+        if(nDoorsCount>0) {
+            this.NumOfDoors = nDoorsCount;
+            this.totalCheckingCount = 0;
+        }else
+        {
+            throw new Exception("Invalid number of doors : " + String.valueOf(nDoorsCount));
+        }
     }
 
     public List getOpenDoors() {

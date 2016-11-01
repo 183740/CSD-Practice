@@ -10,8 +10,7 @@ public class HundredDoorsB extends HundredDoors {
     private List openDoors;
     private List closeDoors;
 
-    public HundredDoorsB(int nDoorsCount)
-    {
+    public HundredDoorsB(int nDoorsCount) throws Exception {
         super(nDoorsCount);
 
         this.openDoors = new ArrayList();

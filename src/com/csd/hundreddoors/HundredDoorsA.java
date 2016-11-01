@@ -9,8 +9,7 @@ import java.util.List;
 public class HundredDoorsA extends HundredDoors {
     private boolean[] doors;
 
-    public HundredDoorsA(int nDoorsCount)
-    {
+    public HundredDoorsA(int nDoorsCount) throws Exception {
         super(nDoorsCount);
         this.doors = new boolean[this.NumOfDoors+1];
 
