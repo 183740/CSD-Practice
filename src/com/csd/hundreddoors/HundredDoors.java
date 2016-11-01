@@ -14,4 +14,8 @@ public class HundredDoors {
     public int getOpenDoors() {
         return 1;
     }
+
+    public int getCloseDoors() {
+        return 0;
+    }
 }

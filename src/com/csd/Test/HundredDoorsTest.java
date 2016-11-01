@@ -17,11 +17,16 @@ public class HundredDoorsTest {
 
     }
 
-    @Test
-    public void GIVEN_1_door_WHEN_ask_open_door_THEN_get_1()
+    @Test public void GIVEN_1_door_WHEN_ask_open_door_THEN_get_1()
     {
         HundredDoors hundredDoors = new HundredDoors(1);
         assertEquals(1,hundredDoors.getOpenDoors());
+    }
+
+    @Test public void GIVEN_1_door_WHEN_ask_close_door_THEN_get_0()
+    {
+        HundredDoors hundredDoors = new HundredDoors(1);
+        assertEquals(0,hundredDoors.getCloseDoors());
     }
 
     @After
