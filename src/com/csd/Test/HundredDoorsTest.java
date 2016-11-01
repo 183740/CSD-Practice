@@ -2,6 +2,7 @@ package com.csd.Test;
 
 import com.csd.hundreddoors.HundredDoors;
 import com.csd.hundreddoors.HundredDoorsA;
+import com.csd.hundreddoors.HundredDoorsB;
 import org.junit.After;
 import org.junit.Before;
 import org.testng.annotations.Test;
@@ -22,49 +23,73 @@ public class HundredDoorsTest {
 
     @Test public void GIVEN_1_door_WHEN_ask_open_door_THEN_get_1()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(1);
-        assertEquals(Arrays.asList(1),hundredDoors.getOpenDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(1);
+        assertEquals(Arrays.asList(1),hundredDoorsA.getOpenDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(1);
+        assertEquals(Arrays.asList(1),hundredDoorsB.getOpenDoors());
     }
 
     @Test public void GIVEN_1_door_WHEN_ask_close_door_THEN_get_0()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(1);
-        assertEquals(Arrays.asList(),hundredDoors.getCloseDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(1);
+        assertEquals(Arrays.asList(),hundredDoorsA.getCloseDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(1);
+        assertEquals(Arrays.asList(),hundredDoorsB.getCloseDoors());
     }
 
     @Test public void GIVEN_2_door_WHEN_ask_open_door_THEN_get_1()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(2);
-        assertEquals(Arrays.asList(1),hundredDoors.getOpenDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(2);
+        assertEquals(Arrays.asList(1),hundredDoorsA.getOpenDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(2);
+        assertEquals(Arrays.asList(1),hundredDoorsB.getOpenDoors());
     }
     @Test public void GIVEN_2_door_WHEN_ask_close_door_THEN_get_2()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(2);
-        assertEquals(Arrays.asList(2),hundredDoors.getCloseDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(2);
+        assertEquals(Arrays.asList(2),hundredDoorsA.getCloseDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(2);
+        assertEquals(Arrays.asList(2),hundredDoorsB.getCloseDoors());
     }
 
     @Test public void GIVEN_3_door_WHEN_ask_open_door_THEN_get_1()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(3);
-        assertEquals(Arrays.asList(1),hundredDoors.getOpenDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(3);
+        assertEquals(Arrays.asList(1),hundredDoorsA.getOpenDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(3);
+        assertEquals(Arrays.asList(1),hundredDoorsB.getOpenDoors());
     }
 
     @Test public void GIVEN_3_door_WHEN_ask_close_door_THEN_get_23()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(3);
-        assertEquals(Arrays.asList(2,3),hundredDoors.getCloseDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(3);
+        assertEquals(Arrays.asList(2,3),hundredDoorsA.getCloseDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(3);
+        assertEquals(Arrays.asList(2,3),hundredDoorsB.getCloseDoors());
     }
 
     @Test public void GIVEN_4_door_WHEN_ask_open_door_THEN_get_14()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(4);
-        assertEquals(Arrays.asList(1,4),hundredDoors.getOpenDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(4);
+        assertEquals(Arrays.asList(1,4),hundredDoorsA.getOpenDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(4);
+        assertEquals(Arrays.asList(1,4),hundredDoorsB.getOpenDoors());
     }
 
     @Test public void GIVEN_4_door_WHEN_ask_close_door_THEN_get_23()
     {
-        HundredDoors hundredDoors = new HundredDoorsA(4);
-        assertEquals(Arrays.asList(2,3),hundredDoors.getCloseDoors());
+        HundredDoors hundredDoorsA = new HundredDoorsA(4);
+        assertEquals(Arrays.asList(2,3),hundredDoorsA.getCloseDoors());
+
+        HundredDoors hundredDoorsB = new HundredDoorsB(4);
+        assertEquals(Arrays.asList(2,3),hundredDoorsB.getCloseDoors());
     }
 
     @After public void After()

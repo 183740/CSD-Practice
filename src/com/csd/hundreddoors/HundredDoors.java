@@ -13,14 +13,6 @@ public class HundredDoors {
         this.NumOfDoors = nDoorsCount;
     }
 
-    protected void toggleAllDoors() {
-
-    }
-
-    private void toggleDoor(int doorNumber) {
-
-    }
-
     public List getOpenDoors() {
         return new ArrayList();
     }
