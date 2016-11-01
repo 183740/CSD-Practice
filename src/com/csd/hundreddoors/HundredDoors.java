@@ -1,5 +1,6 @@
 package com.csd.hundreddoors;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -7,22 +8,55 @@ import java.util.List;
  * Created by xuefen on 2016/11/1.
  */
 public class HundredDoors {
-    private int length;
+    private int NumOfDoors;
+    private boolean[] doors;
 
-    public HundredDoors(int length)
+    public HundredDoors(int nDoorsCount)
     {
-        this.length = length;
+        this.NumOfDoors = nDoorsCount;
+        this.doors = new boolean[this.NumOfDoors+1];
+
+        //init
+        for(int i=0;i<=this.NumOfDoors;i++)
+        {
+            this.doors[i] = false;
+        }
+
+        //start analysis
+        for(int i=1;i<=this.NumOfDoors;i++)
+        {
+            for(int j=0,k=i+j;k<=this.NumOfDoors;k=k+i)
+            {
+                if(this.doors[k])
+                {
+                    this.doors[k] = false;
+                }else
+                {
+                    this.doors[k] = true;
+                }
+            }
+        }
     }
 
-    public int getOpenDoors() {
-        return 1;
+    public List<Integer> getOpenDoors() {
+        List openDoors = new ArrayList();
+
+        for(int i=1;i<=this.NumOfDoors;i++)
+        {
+            if(this.doors[i])
+                openDoors.add(i);
+        }
+        return openDoors;
     }
 
     public List<Integer> getCloseDoors() {
-        if(this.length == 1)
-            return Arrays.asList();
-        else if(this.length == 2)
-            return Arrays.asList(2);
-        return Arrays.asList(2,3);
+        List closeDoors = new ArrayList();
+
+        for(int i=1;i<=this.NumOfDoors;i++)
+        {
+            if(!this.doors[i])
+                closeDoors.add(i);
+        }
+        return closeDoors;
     }
 }
