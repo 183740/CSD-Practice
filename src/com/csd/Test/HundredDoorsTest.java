@@ -54,6 +54,18 @@ public class HundredDoorsTest {
         assertEquals(Arrays.asList(2,3),hundredDoors.getCloseDoors());
     }
 
+    @Test public void GIVEN_4_door_WHEN_ask_open_door_THEN_get_14()
+    {
+        HundredDoors hundredDoors = new HundredDoors(4);
+        assertEquals(Arrays.asList(1,4),hundredDoors.getOpenDoors());
+    }
+
+    @Test public void GIVEN_4_door_WHEN_ask_close_door_THEN_get_23()
+    {
+        HundredDoors hundredDoors = new HundredDoors(4);
+        assertEquals(Arrays.asList(2,3),hundredDoors.getCloseDoors());
+    }
+
     @After public void After()
     {
 
