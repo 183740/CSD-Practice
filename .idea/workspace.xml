@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c83239-273c-4bff-ab46-aac9a44ea7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" afterPath="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java" afterPath="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java" />
     </list>
     <ignored path="HundredDoors.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="HundredDoorsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="212" column="57" selection-start-line="212" selection-start-column="57" selection-end-line="212" selection-end-column="57" />
+            <state relative-caret-position="435">
+              <caret line="208" column="45" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +38,8 @@
       <file leaf-file-name="HundredDoorsC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+            <state relative-caret-position="551">
+              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1450#1451#0" expanded="true" />
@@ -90,12 +90,14 @@
       <file leaf-file-name="HundredDoors.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="188">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,9 +125,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsA.java" />
         <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsB.java" />
-        <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java" />
-        <option value="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" />
         <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsC.java" />
+        <option value="$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java" />
       </list>
     </option>
   </component>
@@ -692,15 +694,6 @@
     <history-entry file="HundredDoorsTest - 2016.11.02 at 10h 33m 39s.xml">
       <configuration name="HundredDoorsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HundredDoorsTest_GIVEN_0_door_WHEN_ask_open_door_THEN_get_null - 2016.11.01 at 22h 52m 17s.xml">
-      <configuration name="HundredDoorsTest.GIVEN_0_door_WHEN_ask_open_door_THEN_get_null" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HundredDoorsTest_GIVEN_invalid_doors_WHEN_ask_open_door_THEN_get_null - 2016.11.01 at 23h 01m 53s.xml">
-      <configuration name="HundredDoorsTest.GIVEN_invalid_doors_WHEN_ask_open_door_THEN_get_null" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HundredDoorsTest_GIVEN_same_doors_WHEN_2_algorithm_THEN_get_same_results - 2016.11.02 at 09h 50m 21s.xml">
-      <configuration name="HundredDoorsTest.GIVEN_same_doors_WHEN_2_algorithm_THEN_get_same_results" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HundredDoorsTest_GIVEN_same_doors_WHEN_2_algorithm_THEN_get_same_results - 2016.11.02 at 10h 10m 42s.xml">
       <configuration name="HundredDoorsTest.GIVEN_same_doors_WHEN_2_algorithm_THEN_get_same_results" configurationId="TestNG" />
     </history-entry>
@@ -719,10 +712,19 @@
     <history-entry file="HundredDoorsTest_GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results - 2016.11.02 at 14h 08m 14s.xml">
       <configuration name="HundredDoorsTest.GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HundredDoorsTest_GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results - 2016.11.02 at 14h 12m 58s.xml">
+      <configuration name="HundredDoorsTest.GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HundredDoorsTest_GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results - 2016.11.02 at 14h 14m 35s.xml">
+      <configuration name="HundredDoorsTest.GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HundredDoorsTest_GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results - 2016.11.02 at 14h 15m 43s.xml">
+      <configuration name="HundredDoorsTest.GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -731,7 +733,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41243863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41243863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -814,8 +816,10 @@
           <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,6 +831,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="208" column="45" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -834,14 +874,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,42 +895,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoorsC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csd/Test/HundredDoorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="212" column="57" selection-start-line="212" selection-start-column="57" selection-end-line="212" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/hundreddoors/HundredDoors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="188">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
           </folding>
         </state>
       </provider>

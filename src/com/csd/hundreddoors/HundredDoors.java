@@ -21,8 +21,8 @@ public class HundredDoors {
     }
 
     public static HundredDoors getHundredDoors(int nDoorsCount) throws Exception {
-        if(nDoorsCount>10) {
-            return new HundredDoorsA(nDoorsCount);
+        if(nDoorsCount>8) {
+            return new HundredDoorsC(nDoorsCount);
         }else
         {
             return new HundredDoorsB(nDoorsCount);
