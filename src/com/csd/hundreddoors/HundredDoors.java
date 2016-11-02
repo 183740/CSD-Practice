@@ -20,6 +20,15 @@ public class HundredDoors {
         }
     }
 
+    public static HundredDoors getHundredDoors(int nDoorsCount) throws Exception {
+        if(nDoorsCount>10) {
+            return new HundredDoorsA(nDoorsCount);
+        }else
+        {
+            return new HundredDoorsB(nDoorsCount);
+        }
+    }
+
     public List getOpenDoors() {
         return new ArrayList();
     }

@@ -155,11 +155,47 @@ public class HundredDoorsTest {
             {
                 HundredDoorsA hundredDoorsA = new HundredDoorsA(i);
                 HundredDoorsB hundredDoorsB = new HundredDoorsB(i);
+                HundredDoors hundredDoors = new HundredDoors(i);
                 assertEquals(hundredDoorsA.getOpenDoors(), hundredDoorsB.getOpenDoors());
                 assertEquals(hundredDoorsA.getCloseDoors(), hundredDoorsB.getCloseDoors());
+                System.out.println(String.valueOf(i) + " Doors  " + hundredDoorsA.getTotalCheckingCount() + "  " + hundredDoorsB.getTotalCheckingCount());
             } catch (Exception e) {
             e.printStackTrace();
+            }
         }
+    }
+
+    @Test public void GIVEN_same_doors_WHEN_B_C_algorithm_THEN_get_same_results()
+    {
+        for(int i = 1;i<=100;i++)
+        {
+            try
+            {
+                HundredDoorsB hundredDoorsB = new HundredDoorsB(i);
+                HundredDoors hundredDoors = HundredDoors.getHundredDoors(i);
+                assertEquals(hundredDoorsB.getOpenDoors(), hundredDoors.getOpenDoors());
+                assertEquals(hundredDoorsB.getCloseDoors(), hundredDoors.getCloseDoors());
+                System.out.println(String.valueOf(i) + " Doors  " + hundredDoorsB.getTotalCheckingCount() + "  " + hundredDoors.getTotalCheckingCount());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    @Test public void GIVEN_same_doors_WHEN_A_C_algorithm_THEN_get_same_results()
+    {
+        for(int i = 1;i<=100;i++)
+        {
+            try
+            {
+                HundredDoors hundredDoorsA = new HundredDoorsA(i);
+                HundredDoors hundredDoors = HundredDoors.getHundredDoors(i);
+                assertEquals(hundredDoorsA.getOpenDoors(), hundredDoors.getOpenDoors());
+                assertEquals(hundredDoorsA.getCloseDoors(), hundredDoors.getCloseDoors());
+                System.out.println(String.valueOf(i) + " Doors  " + hundredDoorsA.getTotalCheckingCount() + "  " + hundredDoors.getTotalCheckingCount());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 
