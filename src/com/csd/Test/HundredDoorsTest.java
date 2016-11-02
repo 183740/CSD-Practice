@@ -3,6 +3,7 @@ package com.csd.Test;
 import com.csd.hundreddoors.HundredDoors;
 import com.csd.hundreddoors.HundredDoorsA;
 import com.csd.hundreddoors.HundredDoorsB;
+import com.csd.hundreddoors.HundredDoorsC;
 import org.junit.After;
 import org.junit.Before;
 import org.testng.annotations.Test;
@@ -165,7 +166,7 @@ public class HundredDoorsTest {
         }
     }
 
-    @Test public void GIVEN_same_doors_WHEN_B_C_algorithm_THEN_get_same_results()
+    @Test public void GIVEN_same_doors_WHEN_B_D_algorithm_THEN_get_same_results()
     {
         for(int i = 1;i<=100;i++)
         {
@@ -182,7 +183,7 @@ public class HundredDoorsTest {
         }
     }
 
-    @Test public void GIVEN_same_doors_WHEN_A_C_algorithm_THEN_get_same_results()
+    @Test public void GIVEN_same_doors_WHEN_A_D_algorithm_THEN_get_same_results()
     {
         for(int i = 1;i<=100;i++)
         {
@@ -193,6 +194,23 @@ public class HundredDoorsTest {
                 assertEquals(hundredDoorsA.getOpenDoors(), hundredDoors.getOpenDoors());
                 assertEquals(hundredDoorsA.getCloseDoors(), hundredDoors.getCloseDoors());
                 System.out.println(String.valueOf(i) + " Doors  " + hundredDoorsA.getTotalCheckingCount() + "  " + hundredDoors.getTotalCheckingCount());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    @Test public void GIVEN_same_doors_WHEN_C_D_algorithm_THEN_get_same_results()
+    {
+        for(int i = 1;i<=100;i++)
+        {
+            try
+            {
+                HundredDoors hundredDoorsC = new HundredDoorsC(i);
+                HundredDoors hundredDoors = HundredDoors.getHundredDoors(i);
+                assertEquals(hundredDoorsC.getOpenDoors(), hundredDoors.getOpenDoors());
+                assertEquals(hundredDoorsC.getCloseDoors(), hundredDoors.getCloseDoors());
+                System.out.println(String.valueOf(i) + " Doors  " + hundredDoorsC.getTotalCheckingCount() + "  " + hundredDoors.getTotalCheckingCount());
             } catch (Exception e) {
                 e.printStackTrace();
             }
