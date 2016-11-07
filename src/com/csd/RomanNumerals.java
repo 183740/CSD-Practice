@@ -5,10 +5,17 @@ package com.csd;
  */
 public class RomanNumerals {
     public String generate(int i) {
-        if(i==1)
-            return "I";
-        else if (i==2)
-            return "II";
-        return "III";
+        String romanNumeral = "";
+        romanNumeral = getUnit(i);
+        return romanNumeral;
+    }
+
+    private String getUnit(int i) {
+        String romanNumeral="";
+        if(i>=1)
+        {
+            romanNumeral = "I" + getUnit(i-1);
+        }
+        return romanNumeral;
     }
 }
