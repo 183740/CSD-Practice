@@ -25,4 +25,16 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("III",romanNumerals.generate(3));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_4_THEN_return_IV()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("IV",romanNumerals.generate(4));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_5_THEN_return_V()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("V",romanNumerals.generate(5));
+    }
 }

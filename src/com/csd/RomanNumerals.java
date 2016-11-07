@@ -12,9 +12,15 @@ public class RomanNumerals {
 
     private String getUnit(int i) {
         String romanNumeral="";
-        if(i>=1)
+
+        if(i==0) return romanNumeral;
+
+        if(i>=1 && i<4)
         {
             romanNumeral = "I" + getUnit(i-1);
+        }else
+        {
+            romanNumeral = "IV";
         }
         return romanNumeral;
     }
