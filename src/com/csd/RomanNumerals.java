@@ -11,23 +11,14 @@ public class RomanNumerals {
     }
 
     private String getUnit(int i) {
-        String romanNumeral="";
+        if(i<=0) return "";
 
-        if(i==0) return romanNumeral;
-
-        if(i>=1 && i<4)
+        if(i>=1 && i<=3)
         {
-            romanNumeral = "I" + getUnit(i-1);
-        }else if(i==4)
-        {
-            romanNumeral = "IV";
-        }else if(i==5)
-        {
-            romanNumeral = "V";
-        }else if(i==6)
-        {
-            romanNumeral = "VI";
+            return("I" + getUnit(i-1));
         }
-        return romanNumeral;
+
+        int diff = i-5;
+        return(getUnit(0-diff) + "V" + getUnit(diff));
     }
 }
