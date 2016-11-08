@@ -14,7 +14,18 @@ public class RomanNumerals {
 
     private String getTens(int i) {
         if(i==0) return "";
-        return "X";
+        if(i>=1 && i<=3)
+        {
+            return("X" + getTens(i-1));
+        }
+
+        if(i==9)
+        {
+            return "XC";
+        }
+
+        int diff = i-5;
+        return(getUnits(0-diff) + "L" + getUnits(diff));
     }
 
     private String getUnits(int i) {

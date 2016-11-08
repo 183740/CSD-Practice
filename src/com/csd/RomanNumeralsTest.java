@@ -91,4 +91,10 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("XIX",romanNumerals.generate(19));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_20_THEN_return_XX()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XX",romanNumerals.generate(20));
+    }
 }
