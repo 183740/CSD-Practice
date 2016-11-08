@@ -133,4 +133,10 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("CMXCIX",romanNumerals.convertToRomanNumerals(999));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_1000_THEN_return_M()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("M",romanNumerals.convertToRomanNumerals(1000));
+    }
 }
