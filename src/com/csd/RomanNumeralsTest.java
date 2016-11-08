@@ -109,4 +109,16 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("XXIX",romanNumerals.convertToRomanNumerals(29));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_30_THEN_return_XXX()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XXX",romanNumerals.convertToRomanNumerals(30));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_99_THEN_return_XCIX()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XCIX",romanNumerals.convertToRomanNumerals(99));
+    }
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e0978c-9f49-46ed-80b1-874310d1dfbd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java" afterPath="$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java" />
     </list>
     <ignored path="CSD-Practice.iws" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="RomanNumeralsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="118" column="63" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -530,9 +531,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralsTest - 2016.11.08 at 12h 45m 27s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralsTest - 2016.11.08 at 12h 49m 40s.xml">
       <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
@@ -557,8 +555,11 @@
     <history-entry file="RomanNumeralsTest - 2016.11.08 at 13h 31m 19s.xml">
       <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RomanNumeralsTest_GIVEN_Roman_WHEN_give_14_THEN_return_XIII - 2016.11.08 at 12h 44m 09s.xml">
-      <configuration name="RomanNumeralsTest.GIVEN_Roman_WHEN_give_14_THEN_return_XIII" configurationId="JUnit" />
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 13h 37m 21s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 13h 38m 24s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -572,7 +573,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -623,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+        <state relative-caret-position="182">
+          <caret line="118" column="63" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
