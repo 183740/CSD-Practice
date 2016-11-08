@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e0978c-9f49-46ed-80b1-874310d1dfbd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/RomanNumerals.java" afterPath="$PROJECT_DIR$/src/com/csd/RomanNumerals.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java" afterPath="$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java" />
     </list>
     <ignored path="CSD-Practice.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="RomanNumeralsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="60" />
+            <state relative-caret-position="182">
+              <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,13 +65,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java" />
         <option value="$PROJECT_DIR$/src/com/csd/RomanNumerals.java" />
+        <option value="$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="-9" />
     <option name="y" value="-2" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -219,6 +218,32 @@
       <option name="PACKAGE_NAME" value="com.csd" />
       <option name="MAIN_CLASS_NAME" value="com.csd.RomanNumeralsTest" />
       <option name="METHOD_NAME" value="GIVEN_Roman_WHEN_give_10_THEN_return_X" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RomanNumeralsTest.GIVEN_Roman_WHEN_give_14_THEN_return_XIII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.csd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CSD-Practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.csd" />
+      <option name="MAIN_CLASS_NAME" value="com.csd.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="GIVEN_Roman_WHEN_give_14_THEN_return_XIII" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -476,16 +501,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.generateRomanNumeralsTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.GIVEN_Roman_WHEN_give_10_THEN_return_X" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.GIVEN_Roman_WHEN_give_14_THEN_return_XIII" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.GIVEN_Roman_WHEN_give_10_THEN_return_X" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.generateRomanNumeralsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.GIVEN_Roman_WHEN_give_14_THEN_return_XIII" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.GIVEN_Roman_WHEN_give_10_THEN_return_X" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RomanNumeralsTest.generateRomanNumeralsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -503,18 +530,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralsTest - 2016.11.08 at 10h 18m 15s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralsTest - 2016.11.08 at 10h 23m 26s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralsTest - 2016.11.08 at 10h 23m 56s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralsTest - 2016.11.08 at 10h 31m 01s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralsTest - 2016.11.08 at 10h 33m 49s.xml">
       <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
@@ -530,12 +545,24 @@
     <history-entry file="RomanNumeralsTest - 2016.11.08 at 12h 38m 28s.xml">
       <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 12h 41m 36s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 12h 42m 55s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 12h 45m 27s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="RomanNumeralsTest_GIVEN_Roman_WHEN_give_10_THEN_return_X - 2016.11.08 at 12h 37m 37s.xml">
       <configuration name="RomanNumeralsTest.GIVEN_Roman_WHEN_give_10_THEN_return_X" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanNumeralsTest_GIVEN_Roman_WHEN_give_14_THEN_return_XIII - 2016.11.08 at 12h 44m 09s.xml">
+      <configuration name="RomanNumeralsTest.GIVEN_Roman_WHEN_give_14_THEN_return_XIII" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="-2" width="1382" height="744" extended-state="0" />
+    <frame x="-9" y="-2" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -603,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="60" />
+        <state relative-caret-position="182">
+          <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

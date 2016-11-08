@@ -67,4 +67,28 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("X",romanNumerals.generate(10));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_11_THEN_return_XI()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XI",romanNumerals.generate(11));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_12_THEN_return_XII()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XII",romanNumerals.generate(12));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_13_THEN_return_XIII()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XIII",romanNumerals.generate(13));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_19_THEN_return_XIX()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XIX",romanNumerals.generate(19));
+    }
 }
