@@ -6,16 +6,23 @@ package com.csd;
 public class RomanNumerals {
     public String generate(int i) {
         String romanNumeral = "";
-        romanNumeral = getUnit(i);
+
+        romanNumeral = getTens((i%100)/10) + getUnits(i%10);
+
         return romanNumeral;
     }
 
-    private String getUnit(int i) {
+    private String getTens(int i) {
+        if(i==0) return "";
+        return "X";
+    }
+
+    private String getUnits(int i) {
         if(i<=0) return "";
 
         if(i>=1 && i<=3)
         {
-            return("I" + getUnit(i-1));
+            return("I" + getUnits(i-1));
         }
 
         if(i==9)
@@ -24,6 +31,6 @@ public class RomanNumerals {
         }
 
         int diff = i-5;
-        return(getUnit(0-diff) + "V" + getUnit(diff));
+        return(getUnits(0-diff) + "V" + getUnits(diff));
     }
 }
