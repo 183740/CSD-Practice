@@ -59,6 +59,6 @@ public class RomanNumeralsTest {
     @Test public void GIVEN_Roman_WHEN_give_9_THEN_return_IX()
     {
         RomanNumerals romanNumerals = new RomanNumerals();
-        //assertEquals("VI",romanNumerals.generate(6));
+        assertEquals("IX",romanNumerals.generate(9));
     }
 }

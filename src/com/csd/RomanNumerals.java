@@ -18,6 +18,11 @@ public class RomanNumerals {
             return("I" + getUnit(i-1));
         }
 
+        if(i==9)
+        {
+            return "IX";
+        }
+
         int diff = i-5;
         return(getUnit(0-diff) + "V" + getUnit(diff));
     }
