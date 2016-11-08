@@ -9,8 +9,13 @@ public class RomanNumerals {
 
     public String convertToRomanNumerals(int i) {
         String romanNumeral = "";
-        romanNumeral = getUnits((i%1000)/100,3) + getUnits((i%100)/10,2) + getUnits(i%10,1);
-        return romanNumeral;
+        String numberString = String.valueOf(i);
+
+        if(numberString.length()==1) {
+            return getUnits(i,1);
+        }
+
+        return getUnits((int)(i/Math.pow(10,numberString.length()-1)),numberString.length()) + convertToRomanNumerals((int) (i%Math.pow(10,numberString.length()-1)));
     }
 
     private String getUnits(int i,int digitPos) {
@@ -24,7 +29,6 @@ public class RomanNumerals {
             return this.minUnit[digitPos] + this.minUnit[digitPos+1];
         }
 
-        int diff = i-5;
-        return(getUnits(0-diff,digitPos) + this.baseUnit[digitPos] + getUnits(diff,digitPos));
+        return(getUnits(5-i,digitPos) + this.baseUnit[digitPos] + getUnits(i-5,digitPos));
     }
 }
