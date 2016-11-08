@@ -18,9 +18,15 @@ public class RomanNumerals {
         if(i>=1 && i<4)
         {
             romanNumeral = "I" + getUnit(i-1);
-        }else
+        }else if(i==4)
         {
             romanNumeral = "IV";
+        }else if(i==5)
+        {
+            romanNumeral = "V";
+        }else if(i==6)
+        {
+            romanNumeral = "VI";
         }
         return romanNumeral;
     }

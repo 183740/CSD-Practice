@@ -27,8 +27,8 @@
       <file leaf-file-name="RomanNumeralsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="28" column="60" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="60" />
+            <state relative-caret-position="239">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
       <file leaf-file-name="RomanNumerals.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumerals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -66,13 +66,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/csd/RomanNumerals.java" />
         <option value="$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/csd/RomanNumerals.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
+    <option name="x" value="-15" />
     <option name="y" value="-2" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -475,15 +475,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralsTest - 2016.11.07 at 23h 08m 36s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralsTest - 2016.11.07 at 23h 27m 09s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralsTest - 2016.11.07 at 23h 31m 32s.xml">
-      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralsTest - 2016.11.07 at 23h 53m 33s.xml">
       <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
@@ -505,9 +496,18 @@
     <history-entry file="RomanNumeralsTest - 2016.11.08 at 00h 20m 03s.xml">
       <configuration name="RomanNumeralsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 00h 22m 56s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 09h 38m 22s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralsTest - 2016.11.08 at 09h 42m 41s.xml">
+      <configuration name="RomanNumeralsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-2" width="1382" height="744" extended-state="0" />
+    <frame x="-15" y="-2" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -558,16 +558,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumerals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="60" />
+        <state relative-caret-position="239">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -37,4 +37,10 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("V",romanNumerals.generate(5));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_6_THEN_return_VI()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("VI",romanNumerals.generate(6));
+    }
 }
