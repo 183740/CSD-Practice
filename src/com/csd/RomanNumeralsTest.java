@@ -145,4 +145,22 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("MMMM",romanNumerals.convertToRomanNumerals(4000));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_1990_THEN_return_MCMXC()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        //assertEquals("MCMXC",romanNumerals.convertToRomanNumerals(1900));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_2008_THEN_return_MMVIII()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        //assertEquals("MMVIII",romanNumerals.convertToRomanNumerals(2008));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_47_THEN_return_XLVII()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        //assertEquals("XLVII",romanNumerals.convertToRomanNumerals(47));
+    }
 }
