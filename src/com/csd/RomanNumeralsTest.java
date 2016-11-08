@@ -139,4 +139,10 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("M",romanNumerals.convertToRomanNumerals(1000));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_4000_THEN_return_MMMM()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("MMMM",romanNumerals.convertToRomanNumerals(4000));
+    }
 }

@@ -11,6 +11,11 @@ public class RomanNumerals {
         String romanNumeral = "";
         String numberString = String.valueOf(i);
 
+        if(i<1 || i>4999)
+        {
+            return "NA";
+        }
+
         if(numberString.length()==1) {
             return getUnits(i,1);
         }
@@ -21,7 +26,7 @@ public class RomanNumerals {
     private String getUnits(int i,int digitPos) {
         if(i<=0) return "";
 
-        if(i>=1 && i<=3){
+        if(i>=1 && i<=3 || digitPos == 4){
             return(this.minUnit[digitPos] + getUnits(i-1,digitPos));
         }
 
