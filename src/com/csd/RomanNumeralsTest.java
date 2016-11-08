@@ -43,4 +43,22 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("VI",romanNumerals.generate(6));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_7_THEN_return_VII()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("VII",romanNumerals.generate(7));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_8_THEN_return_VIII()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("VIII",romanNumerals.generate(8));
+    }
+
+    @Test public void GIVEN_Roman_WHEN_give_9_THEN_return_IX()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        //assertEquals("VI",romanNumerals.generate(6));
+    }
 }
