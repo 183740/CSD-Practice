@@ -121,4 +121,10 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("XCIX",romanNumerals.convertToRomanNumerals(99));
     }
+
+    @Test public void GIVEN_Roman_WHEN_give_100_THEN_return_C()
+    {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("C",romanNumerals.convertToRomanNumerals(100));
+    }
 }

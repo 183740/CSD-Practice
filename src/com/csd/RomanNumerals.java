@@ -9,7 +9,7 @@ public class RomanNumerals {
 
     public String convertToRomanNumerals(int i) {
         String romanNumeral = "";
-        romanNumeral = getUnits((i%100)/10,2) + getUnits(i%10,1);
+        romanNumeral = getUnits((i%1000)/100,3) + getUnits((i%100)/10,2) + getUnits(i%10,1);
         return romanNumeral;
     }
 
