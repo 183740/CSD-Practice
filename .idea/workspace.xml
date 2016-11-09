@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209924c1-eb1f-47a3-ab81-71fc1af36146" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/NumberChain.java" afterPath="$PROJECT_DIR$/src/com/csd/NumberChain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/NumberChainTest.java" afterPath="$PROJECT_DIR$/src/com/csd/NumberChainTest.java" />
     </list>
@@ -48,8 +47,8 @@
       <file leaf-file-name="NumberChainTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="563">
+              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,9 +59,14 @@
       <file leaf-file-name="NumberChain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="-577">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <folding>
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +91,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/csd/NumberChainTest.java" />
         <option value="$PROJECT_DIR$/src/com/csd/NumberChain.java" />
+        <option value="$PROJECT_DIR$/src/com/csd/NumberChainTest.java" />
       </list>
     </option>
   </component>
@@ -490,18 +494,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberChainTest - 2016.11.09 at 17h 16m 19s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberChainTest - 2016.11.09 at 20h 37m 53s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberChainTest - 2016.11.09 at 20h 40m 32s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberChainTest - 2016.11.09 at 20h 42m 39s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberChainTest - 2016.11.09 at 20h 51m 29s.xml">
       <configuration name="NumberChainTest" configurationId="JUnit" />
     </history-entry>
@@ -518,6 +510,18 @@
       <configuration name="NumberChainTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="NumberChainTest - 2016.11.09 at 21h 36m 17s.xml">
+      <configuration name="NumberChainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest - 2016.11.09 at 22h 22m 28s.xml">
+      <configuration name="NumberChainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest - 2016.11.09 at 22h 24m 08s.xml">
+      <configuration name="NumberChainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest - 2016.11.09 at 22h 26m 49s.xml">
+      <configuration name="NumberChainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest - 2016.11.09 at 22h 29m 08s.xml">
       <configuration name="NumberChainTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -594,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -612,11 +606,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-577">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

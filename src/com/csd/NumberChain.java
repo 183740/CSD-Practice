@@ -17,6 +17,12 @@ public class NumberChain {
     {
         this.numStrOriginal = number;
         originalNumber = prepareIntArrays();
+
+        sorting(SORT_MODE_DESCENDIND);
+        numStrDescending = intArrayToString();
+
+        sorting(SORT_MODEASCENDING);
+        numStrAscending = intArrayToString();
     }
 
     private int[] prepareIntArrays() {
@@ -30,16 +36,10 @@ public class NumberChain {
 
     public String getDescendingStr()
     {
-        sorting(SORT_MODE_DESCENDIND);
-        numStrDescending = intArrayToString();
-
         return numStrDescending;
     }
 
     public String getAscendingStr() {
-        sorting(SORT_MODEASCENDING);
-        numStrAscending = intArrayToString();
-
         return numStrAscending;
     }
 

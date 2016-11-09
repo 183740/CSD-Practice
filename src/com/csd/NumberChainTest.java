@@ -9,17 +9,27 @@ import static org.junit.Assert.assertEquals;
  */
 public class NumberChainTest {
 
-    @Test public void GIVEN_String_12_WHEN_Sorting_THEN_get_21()
+    @Test public void GIVEN_String_914236758_WHEN_Descending_THEN_get_987654321()
     {
-        NumberChain numberChain = new NumberChain("12");
-        assertEquals("21", numberChain.getDescendingStr());
-        assertEquals("12", numberChain.getAscendingStr());
+        NumberChain numberChain = new NumberChain("914236758");
+        assertEquals("987654321", numberChain.getDescendingStr());
     }
 
-    @Test public void GIVEN_String_123_WHEN_Sorting_THEN_get_321()
+    @Test public void GIVEN_String_914236758_WHEN_Ascending_THEN_get_123456789()
+    {
+        NumberChain numberChain = new NumberChain("914236758");
+        assertEquals("123456789", numberChain.getAscendingStr());
+    }
+
+    @Test public void GIVEN_String_123_WHEN_Descending_THEN_get_321()
     {
         NumberChain numberChain = new NumberChain("213");
         assertEquals("321", numberChain.getDescendingStr());
+    }
+
+    @Test public void GIVEN_String_123_WHEN_Ascending_THEN_get_123()
+    {
+        NumberChain numberChain = new NumberChain("213");
         assertEquals("123", numberChain.getAscendingStr());
     }
 }
