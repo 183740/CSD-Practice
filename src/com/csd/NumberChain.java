@@ -5,28 +5,45 @@ package com.csd;
  */
 public class NumberChain {
 
-    public String getDescending(String s)
+    public static final int SORT_MODE_DESCENDIND = 1;
+    public static final int SORT_MODEASCENDING = 2;
+    private String numStrOriginal = "";
+    private String numStrDescending = "";
+    private String numStrAscending = "";
+
+    private int[] originalNumber;
+
+    public NumberChain(String number)
     {
-        int[] originalNumber = new int[s.length()];
-        for(int i=0;i<s.length();i++)
-        {
-            originalNumber[i] = Integer.parseInt(s.substring(i,i+1));
-        }
+        this.numStrOriginal = number;
+        originalNumber = prepareIntArrays();
+    }
 
-        int temp = 0;
-        for (int i = originalNumber.length - 1; i > 0; --i)
+    private int[] prepareIntArrays() {
+        int[] originalNumber = new int[this.numStrOriginal.length()];
+        for(int i = 0; i<this.numStrOriginal.length(); i++)
         {
-            for (int j = 0; j < i; ++j)
-            {
-                if (originalNumber[j + 1] > originalNumber[j])
-                {
-                    temp = originalNumber[j];
-                    originalNumber[j] = originalNumber[j + 1];
-                    originalNumber[j + 1] = temp;
-                }
-            }
+            originalNumber[i] = Integer.parseInt(this.numStrOriginal.substring(i,i+1));
         }
+        return originalNumber;
+    }
 
+    public String getDescendingStr()
+    {
+        sorting(SORT_MODE_DESCENDIND);
+        numStrDescending = intArrayToString();
+
+        return numStrDescending;
+    }
+
+    public String getAscendingStr() {
+        sorting(SORT_MODEASCENDING);
+        numStrAscending = intArrayToString();
+
+        return numStrAscending;
+    }
+
+    private String intArrayToString() {
         String descendingString = "";
         for(int i=0;i<originalNumber.length;i++)
         {
@@ -35,19 +52,13 @@ public class NumberChain {
         return descendingString;
     }
 
-    public String getAscending(String s) {
-        int[] originalNumber = new int[s.length()];
-        for(int i=0;i<s.length();i++)
-        {
-            originalNumber[i] = Integer.parseInt(s.substring(i,i+1));
-        }
-
+    private void sorting(int sortMode) {
         int temp = 0;
         for (int i = originalNumber.length - 1; i > 0; --i)
         {
             for (int j = 0; j < i; ++j)
             {
-                if (originalNumber[j + 1] < originalNumber[j])
+                if (sortMode==1 && (originalNumber[j + 1] > originalNumber[j]) || sortMode==2 && (originalNumber[j + 1] < originalNumber[j]))
                 {
                     temp = originalNumber[j];
                     originalNumber[j] = originalNumber[j + 1];
@@ -55,12 +66,5 @@ public class NumberChain {
                 }
             }
         }
-
-        String aescendingString = "";
-        for(int i=0;i<originalNumber.length;i++)
-        {
-            aescendingString+= originalNumber[i];
-        }
-        return aescendingString;
     }
 }
