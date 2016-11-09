@@ -6,7 +6,7 @@ package com.csd;
 public class NumberChain {
 
     public static final int SORT_MODE_DESCENDIND = 1;
-    public static final int SORT_MODEASCENDING = 2;
+    public static final int SORT_MODE_ASCENDING = 2;
     private String numStrOriginal = "";
     private String numStrDescending = "";
     private String numStrAscending = "";
@@ -15,13 +15,17 @@ public class NumberChain {
 
     public NumberChain(String number)
     {
+        prepareForChainCalc(number);
+    }
+
+    private void prepareForChainCalc(String number) {
         this.numStrOriginal = number;
         originalNumber = prepareIntArrays();
 
         sorting(SORT_MODE_DESCENDIND);
         numStrDescending = intArrayToString();
 
-        sorting(SORT_MODEASCENDING);
+        sorting(SORT_MODE_ASCENDING);
         numStrAscending = intArrayToString();
     }
 
@@ -58,7 +62,7 @@ public class NumberChain {
         {
             for (int j = 0; j < i; ++j)
             {
-                if (sortMode==1 && (originalNumber[j + 1] > originalNumber[j]) || sortMode==2 && (originalNumber[j + 1] < originalNumber[j]))
+                if (sortMode==SORT_MODE_DESCENDIND && (originalNumber[j + 1] > originalNumber[j]) || sortMode==SORT_MODE_ASCENDING && (originalNumber[j + 1] < originalNumber[j]))
                 {
                     temp = originalNumber[j];
                     originalNumber[j] = originalNumber[j + 1];
@@ -66,5 +70,9 @@ public class NumberChain {
                 }
             }
         }
+    }
+
+    public int getCalcResult() {
+        return Integer.parseInt(this.getDescendingStr()) - Integer.parseInt(this.getAscendingStr());
     }
 }

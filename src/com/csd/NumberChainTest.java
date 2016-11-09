@@ -32,4 +32,10 @@ public class NumberChainTest {
         NumberChain numberChain = new NumberChain("213");
         assertEquals("123", numberChain.getAscendingStr());
     }
+
+    @Test public void GIVEN_String_123_WHEN_ask_result_THEN_get_198()
+    {
+        NumberChain numberChain = new NumberChain("213");
+        assertEquals(198, numberChain.getCalcResult());
+    }
 }
