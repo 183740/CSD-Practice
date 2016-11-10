@@ -9,6 +9,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class NumberChainTest {
 
+    /*
     @Test public void GIVEN_String_914236758_WHEN_Descending_THEN_get_987654321()
     {
         NumberChain numberChain = new NumberChain("914236758");
@@ -38,10 +39,17 @@ public class NumberChainTest {
         NumberChain numberChain = new NumberChain("213");
         assertEquals(198, numberChain.getCalcResult());
     }
+*/
 
     @Test public void GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2()
     {
         NumberChain numberChain = new NumberChain("123456789");
         assertEquals(2, numberChain.getChain());
+    }
+
+    @Test public void GIVEN_String_2314_WHEN_ask_chain_THEN_get_4()
+    {
+        NumberChain numberChain = new NumberChain("2314");
+        assertEquals(4, numberChain.getChain());
     }
 }

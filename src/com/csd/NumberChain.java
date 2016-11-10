@@ -24,6 +24,7 @@ public class NumberChain {
         this.chainCount = 0;
 
         startChainCalc(number);
+        System.out.println("Chain: " + this.getChain()); System.out.println("");
     }
 
     private void startChainCalc(String number) {
@@ -33,26 +34,26 @@ public class NumberChain {
         System.out.println(this.getDescendingStr() + " - " + this.getAscendingStr() + " = " + String.valueOf(result));
         this.chainCount++;
 
-        boolean isExist = false;
-        for(int i=0;i<this.results.size();i++)
-        {
-            if(this.results.get(i) == result)
-            {
-                isExist = true;
-                break;
-            }
-        }
-
-        if(!isExist)
+        if(!isExist(result))
         {
             this.results.add(result);
             startChainCalc(String.valueOf(result));
         }
     }
 
+    private boolean isExist(int result) {
+        for(int i=0;i<this.results.size();i++)
+        {
+            if(this.results.get(i) == result)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     private void prepareForChainCalc(String number) {
-        this.numStrOriginal = number;
-        originalNumber = prepareIntArrays();
+        originalNumber = prepareIntArrays(number);
 
         sorting(SORT_MODE_DESCENDIND);
         numStrDescending = intArrayToString();
@@ -61,11 +62,11 @@ public class NumberChain {
         numStrAscending = intArrayToString();
     }
 
-    private int[] prepareIntArrays() {
-        int[] originalNumber = new int[this.numStrOriginal.length()];
-        for(int i = 0; i<this.numStrOriginal.length(); i++)
+    private int[] prepareIntArrays(String number) {
+        int[] originalNumber = new int[number.length()];
+        for(int i = 0; i<number.length(); i++)
         {
-            originalNumber[i] = Integer.parseInt(this.numStrOriginal.substring(i,i+1));
+            originalNumber[i] = Integer.parseInt(number.substring(i,i+1));
         }
         return originalNumber;
     }
