@@ -1,5 +1,8 @@
 package com.csd;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by xuefen on 2016/11/9.
  */
@@ -10,11 +13,13 @@ public class NumberChain {
     private String numStrOriginal = "";
     private String numStrDescending = "";
     private String numStrAscending = "";
+    private List results;
 
     private int[] originalNumber;
 
     public NumberChain(String number)
     {
+        this.results = new ArrayList();
         prepareForChainCalc(number);
     }
 
@@ -74,5 +79,9 @@ public class NumberChain {
 
     public int getCalcResult() {
         return Integer.parseInt(this.getDescendingStr()) - Integer.parseInt(this.getAscendingStr());
+    }
+
+    public int getChain() {
+        return 2;
     }
 }

@@ -38,4 +38,10 @@ public class NumberChainTest {
         NumberChain numberChain = new NumberChain("213");
         assertEquals(198, numberChain.getCalcResult());
     }
+
+    @Test public void GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2()
+    {
+        NumberChain numberChain = new NumberChain("123456789");
+        assertEquals(2, numberChain.getChain());
+    }
 }
