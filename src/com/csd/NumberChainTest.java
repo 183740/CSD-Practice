@@ -52,4 +52,12 @@ public class NumberChainTest {
         NumberChain numberChain = new NumberChain("2314");
         assertEquals(4, numberChain.getChain());
     }
+/*
+    @Test public void GIVEN_intArray_1234_WHEN_reserse_THEN_get_4321()
+    {
+        NumberChain numberChain = new NumberChain("2314");
+        int[] number = new int[]{1,2,3,4};
+        assertEquals(new int[]{4,3,2,1}, numberChain.reverseIntArray(number));
+    }
+    */
 }

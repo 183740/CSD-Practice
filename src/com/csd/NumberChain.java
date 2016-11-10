@@ -10,18 +10,14 @@ public class NumberChain {
 
     public static final int SORT_MODE_DESCENDIND = 1;
     public static final int SORT_MODE_ASCENDING = 2;
-    private String numStrOriginal = "";
     private String numStrDescending = "";
     private String numStrAscending = "";
     private ArrayList<Integer> results;
-    private int chainCount;
-
     private int[] originalNumber;
 
     public NumberChain(String number)
     {
         this.results = new ArrayList<Integer>();
-        this.chainCount = 0;
 
         startChainCalc(number);
         System.out.println("Chain: " + this.getChain()); System.out.println("");
@@ -32,12 +28,14 @@ public class NumberChain {
 
         int result = this.getCalcResult();
         System.out.println(this.getDescendingStr() + " - " + this.getAscendingStr() + " = " + String.valueOf(result));
-        this.chainCount++;
 
         if(!isExist(result))
         {
             this.results.add(result);
             startChainCalc(String.valueOf(result));
+        }else
+        {
+            this.results.add(result);
         }
     }
 
@@ -54,6 +52,8 @@ public class NumberChain {
 
     private void prepareForChainCalc(String number) {
         originalNumber = prepareIntArrays(number);
+        numStrDescending = "";
+        numStrAscending = "";
 
         sorting(SORT_MODE_DESCENDIND);
         numStrDescending = intArrayToString();
@@ -90,19 +90,38 @@ public class NumberChain {
     }
 
     private void sorting(int sortMode) {
-        int temp = 0;
-        for (int i = originalNumber.length - 1; i > 0; --i)
+        if(sortMode == SORT_MODE_DESCENDIND  && this.getAscendingStr() == "" || sortMode == SORT_MODE_ASCENDING  && this.getDescendingStr() == "")
         {
-            for (int j = 0; j < i; ++j)
+            int temp = 0;
+            for (int i = originalNumber.length - 1; i > 0; --i)
             {
-                if (sortMode==SORT_MODE_DESCENDIND && (originalNumber[j + 1] > originalNumber[j]) || sortMode==SORT_MODE_ASCENDING && (originalNumber[j + 1] < originalNumber[j]))
+                for (int j = 0; j < i; ++j)
                 {
-                    temp = originalNumber[j];
-                    originalNumber[j] = originalNumber[j + 1];
-                    originalNumber[j + 1] = temp;
+                    if (sortMode==SORT_MODE_DESCENDIND && (originalNumber[j + 1] > originalNumber[j]) || sortMode==SORT_MODE_ASCENDING && (originalNumber[j + 1] < originalNumber[j]))
+                    {
+                        temp = originalNumber[j];
+                        originalNumber[j] = originalNumber[j + 1];
+                        originalNumber[j + 1] = temp;
+                    }
                 }
             }
+        }else
+        {
+            reverseIntArray(originalNumber);
         }
+
+    }
+
+    public int[] reverseIntArray(int[] originalNumber) {
+        int[] number = originalNumber;
+        for(int i = 0,j = number.length-1; i<(int)(number.length/2) && i<j; i++,j--)
+        {
+            int temp = 0;
+            temp = number[i];
+            number[i] = number[j];
+            number[j] = temp;
+        }
+        return number;
     }
 
     public int getCalcResult() {
@@ -110,6 +129,6 @@ public class NumberChain {
     }
 
     public int getChain() {
-        return this.chainCount;
+        return this.results.size();
     }
 }
