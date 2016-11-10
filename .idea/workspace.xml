@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="209924c1-eb1f-47a3-ab81-71fc1af36146" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/NumberChain.java" afterPath="$PROJECT_DIR$/src/com/csd/NumberChain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/csd/NumberChainTest.java" afterPath="$PROJECT_DIR$/src/com/csd/NumberChainTest.java" />
     </list>
     <ignored path="CSD-Practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-266">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="228">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -47,8 +46,8 @@
       <file leaf-file-name="NumberChainTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="41" column="70" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="70" />
+            <state relative-caret-position="240">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,16 +58,16 @@
       <file leaf-file-name="NumberChain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            <state relative-caret-position="-28">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#2348#2349#0" expanded="true" />
-                <element signature="e#2372#2373#0" expanded="true" />
+                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#1993#1994#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2070#2071#0" expanded="true" />
+                <element signature="e#3069#3070#0" expanded="true" />
+                <element signature="e#3107#3108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +93,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/csd/NumberChain.java" />
         <option value="$PROJECT_DIR$/src/com/csd/NumberChainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/csd/NumberChain.java" />
       </list>
     </option>
   </component>
@@ -181,7 +180,7 @@
       <recent name="com.csd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberChainTest">
+  <component name="RunManager" selected="JUnit.NumberChainTest.GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -216,6 +215,32 @@
       <option name="MAIN_CLASS_NAME" value="com.csd.NumberChainTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumberChainTest.GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.csd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CSD-Practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.csd" />
+      <option name="MAIN_CLASS_NAME" value="com.csd.NumberChainTest" />
+      <option name="METHOD_NAME" value="GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -472,14 +497,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.NumberChainTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NumberChainTest.GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberChainTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberChainTest.GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NumberChainTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -497,18 +524,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberChainTest - 2016.11.09 at 21h 24m 49s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberChainTest - 2016.11.09 at 21h 36m 17s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberChainTest - 2016.11.09 at 22h 22m 28s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberChainTest - 2016.11.09 at 22h 24m 08s.xml">
-      <configuration name="NumberChainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberChainTest - 2016.11.09 at 22h 26m 49s.xml">
       <configuration name="NumberChainTest" configurationId="JUnit" />
     </history-entry>
@@ -526,6 +541,18 @@
     </history-entry>
     <history-entry file="NumberChainTest - 2016.11.10 at 09h 50m 10s.xml">
       <configuration name="NumberChainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest - 2016.11.10 at 10h 04m 26s.xml">
+      <configuration name="NumberChainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest_GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2 - 2016.11.10 at 10h 09m 09s.xml">
+      <configuration name="NumberChainTest.GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest_GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2 - 2016.11.10 at 10h 11m 46s.xml">
+      <configuration name="NumberChainTest.GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberChainTest_GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2 - 2016.11.10 at 10h 13m 14s.xml">
+      <configuration name="NumberChainTest.GIVEN_String_123456789_WHEN_ask_chain_THEN_get_2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -593,6 +620,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="e#3107#3108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -601,34 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2372#2373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csd/NumberChainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="70" />
+        <state relative-caret-position="240">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

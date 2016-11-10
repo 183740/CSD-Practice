@@ -13,14 +13,41 @@ public class NumberChain {
     private String numStrOriginal = "";
     private String numStrDescending = "";
     private String numStrAscending = "";
-    private List results;
+    private ArrayList<Integer> results;
+    private int chainCount;
 
     private int[] originalNumber;
 
     public NumberChain(String number)
     {
-        this.results = new ArrayList();
+        this.results = new ArrayList<Integer>();
+        this.chainCount = 0;
+
+        startChainCalc(number);
+    }
+
+    private void startChainCalc(String number) {
         prepareForChainCalc(number);
+
+        int result = this.getCalcResult();
+        System.out.println(this.getDescendingStr() + " - " + this.getAscendingStr() + " = " + String.valueOf(result));
+        this.chainCount++;
+
+        boolean isExist = false;
+        for(int i=0;i<this.results.size();i++)
+        {
+            if(this.results.get(i) == result)
+            {
+                isExist = true;
+                break;
+            }
+        }
+
+        if(!isExist)
+        {
+            this.results.add(result);
+            startChainCalc(String.valueOf(result));
+        }
     }
 
     private void prepareForChainCalc(String number) {
@@ -82,6 +109,6 @@ public class NumberChain {
     }
 
     public int getChain() {
-        return 2;
+        return this.chainCount;
     }
 }
